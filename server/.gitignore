@@ -1,0 +1,9 @@
+node_modules/
+logs/
+.idea/
+target/
+tmp/
+config/application.json
+npm-debug.log
+coverage
+npm-shrinkwrap.json

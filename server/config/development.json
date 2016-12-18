@@ -1,0 +1,13 @@
+{
+    "server": {
+        "host": "local.example.intuit.com",
+        "allowOrigin": "*"
+    },
+    "envType": "development",
+    "restartOnUncaughtException": true,
+    "restartTimeout": 0,
+    "proxyServer": null,
+    "db": {
+        "uri": "'mongodb://127.0.0.1:27017/api'"
+    },
+}
