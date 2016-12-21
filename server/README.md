@@ -3,6 +3,11 @@ NodeServer
 
 Benefit Assist Application server utilizes the Node.js technology. Here's how and what all is needed to run Node server locally.
 
+## Todos
+
+* [node-restify-mongodb tutorial](http://blog.getstream.io/depth-guide-building-rest-api-node-js-restify-mongodb)
+* [node-restify-mongodb optional-tutorial](http://techforgeek.com/2015/01/create-rest-api-using-node-js-mongoose-restify)
+
 ## Getting Started
 
 * Confirm you have the necessary command line utilities
