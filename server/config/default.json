@@ -2,7 +2,7 @@
     "server": {
         "name": "Example Application",
         "host": "example.intuit.com",
-        "port": 3000,
+        "port": 7777,
         "allowOrigin": "*.intuit.com"
     },
 

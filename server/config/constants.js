@@ -9,6 +9,7 @@ var Constants = {
     applicationName : "Restify Example",
     logDir : path.resolve(projectDir, 'logs'),
     resourcesDir : path.resolve(projectDir, 'resources'),
-    appId : "Example"
+    appId : "Example",
+    defaultLoggerTag : "server"
 };
 module.exports = deepFreeze(Constants);
