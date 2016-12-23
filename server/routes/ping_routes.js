@@ -22,5 +22,27 @@ module.exports = {
             });
         });
 
+        // TODO: modify function to send a new Loggly log using req's properties
+        // server.post('/ping/log', function (req, resp, next) {
+        //     var exampleId, appId = req.params.appid;
+
+        //     try {
+        //         var data = _.isObject(req.body) ? req.body : JSON.parse(req.body);
+        //         exampleId = data.exampleId;
+        //     }
+        //     catch (ex) {
+        //         return jSend.error(resp, ex);
+        //     }
+
+        //     ExampleController.executeExample(exampleId, appId, function (error, info) {
+        //         if (error) {
+        //             jSend.error(resp, error);
+        //         }
+        //         else {
+        //             jSend.success(resp, info);
+        //         }
+        //     });
+        // });
+
     }
 };

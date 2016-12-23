@@ -7,3 +7,5 @@ config/application.json
 npm-debug.log
 coverage
 npm-shrinkwrap.json
+
+# config/secret.json

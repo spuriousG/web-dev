@@ -12,5 +12,3 @@ Full stack web development
 * [restify](https://github.com/restify/node-restify)
 * [mongoose](https://github.com/Automattic/mongoose)
 
-## Contributors
-* Greg Miller
