@@ -10,6 +10,7 @@ var Constants = {
     logDir : path.resolve(projectDir, 'logs'),
     resourcesDir : path.resolve(projectDir, 'resources'),
     appId : "Example",
+    subdomain : "irliao",
     defaultLoggerTag : "server"
 };
 module.exports = deepFreeze(Constants);

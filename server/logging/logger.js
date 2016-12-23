@@ -5,6 +5,7 @@ require('winston-loggly'); // expose winston.transports.Loggly as Loggly
 
 var Constants = require('../config/constants');
 var Loggers = winston.loggers;
+var Settings = require('../config/settings');
 
 /**
  * Find or create a logger with the requested name
@@ -15,12 +16,14 @@ module.exports = {
     getLogger : function (component) {
         component = component || Constants.defaultLoggerTag;
 
+        console.log("Settings: " + JSON.stringify(Settings));
+
         // Create a new logger if one doesn't exist
         if (!Loggers.has(component)) {
             Loggers.add(component, {
               Loggly: {
-                  token: "2d910b7b-42cc-4f9b-96b7-90e140d3ccff",
-                  subdomain: "irliao"
+                  token: Settings.logglyToken, // TODO: handle Error when missing token
+                  subdomain: Constants.subdomain
               }
             })
         }

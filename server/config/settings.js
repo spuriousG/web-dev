@@ -24,8 +24,8 @@ else {
 var settings = merge(defaultConfig, envSpecificConfig);
 
 // merge in the app secrets
-if (fs.existsSync(path.resolve(__dirname, 'application.json'))) {
-    var secrets = require('./application.json');
+if (fs.existsSync(path.resolve(__dirname, 'secret.json'))) {
+    var secrets = require('./secret.json');
     var defSecrets = secrets['default'];
     var envSecrets = secrets[env] || {};
     secrets = merge(defSecrets, envSecrets);
